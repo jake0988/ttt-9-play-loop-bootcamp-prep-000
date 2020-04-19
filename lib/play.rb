@@ -38,7 +38,7 @@ end
 def play(board)
 i = 0
   while i < 9
-    board[i] = gets.strip
+    board[i] = turn(board[i])
     i += 1
   end
 end
