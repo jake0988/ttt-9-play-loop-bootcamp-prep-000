@@ -38,7 +38,7 @@ end
 def play(board)
 i = 0
   while i < 9
-    board[i] = turn(board[i])
+    board[i] = "X"
     i += 1
   end
 end
