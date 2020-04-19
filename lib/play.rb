@@ -37,7 +37,7 @@ end
 
 def play(board)
 i = 0
-  while i < 10
+  while i < 9
     board[i] = gets.strip
     i += 1
   end
