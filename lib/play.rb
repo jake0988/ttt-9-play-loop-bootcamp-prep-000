@@ -40,7 +40,7 @@ i = 0
   while i < 10
     turn(board)
     i++
-  end
+  
 end
 
 # Define your play method below
